@@ -14,11 +14,13 @@ const FooterMobile = () => {
 
 export const FooterDesktop = () => {
 	return (
-		<div className="hidden md:flex w-1/2 justify-center items-center bg-CyanGray flex-col text-white">
+		<div
+			id="border-bootom-left-radius"
+			className="hidden md:flex w-1/2 justify-center items-center bg-CyanGray flex-col text-white">
 			<CalculatorIcon />
-			<p className="font-bold text-xl mt-3">Results shown here</p>
-			<p className="text-center mt-5font-thin">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut numquam eos temporibus, sit hic ut.
+			<p className="font-bold text-2xl mt-3">Results shown here</p>
+			<p className="text-center md:mt-5 md:w-3/4 font-thin md:text-lg ">
+				Complete the form and click "calculate repayments" to see what your monthly repayments would be.
 			</p>
 		</div>
 	)
