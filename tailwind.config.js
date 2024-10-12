@@ -26,6 +26,8 @@ export default {
 				Lime: '#d7da2f',
 				Red: '#d73328',
 				CyanGray: '#133040',
+				Background: '#e3f3fd',
+				Text: '#2c4c59',
 			},
 		},
 	},

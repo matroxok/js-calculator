@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	color: #2c4c59;
+	/* color: red; */
+    
+}
+
 #border-bootom-left-radius {
 	border-bottom-left-radius: 90px;
 }
